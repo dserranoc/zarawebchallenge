@@ -1,0 +1,19 @@
+.searchBar {
+  position: relative;
+  border-bottom: 2px solid #000;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.searchBar .input {
+  width: 100%;
+  padding: 10px 0px 10px 0px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  color: var(--color-gray);
+}
+.searchBar .icon {
+  font-size: 12px;
+  color: var(--color-black);
+}
