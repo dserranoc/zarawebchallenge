@@ -11,8 +11,9 @@ export default function CharacterCard (props: CharacterCardProps) {
     <article className={styles.characterCard}>
       <div className={styles.characterThumbnail}>
         <img className={styles.thumbnailResource} src={props.thumbnail} alt={props.name + ' thumbnail'} />
+        <div className={styles.separator} />
       </div>
-      <div className={styles.separator} />
+
       <div className={styles.characterInfo}>
         {props.name}
       </div>

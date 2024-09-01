@@ -1,0 +1,17 @@
+.nav {
+    background-color: var(--color-black);
+    color: var(--color-white);
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    align-items: center;
+}
+
+.favorites {
+    display: flex;
+    align-items: center;
+}
+
+.favoritesIcon {
+    margin-right: 8px;
+}
